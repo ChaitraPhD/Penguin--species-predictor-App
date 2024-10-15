@@ -9,7 +9,7 @@ st.info('This is app builds a machine learning model!')
 
 with st.expander('Data'):
   st.write('**Raw data**')
-  df = pd.read_csv('')
+  df = pd.read_csv('https://raw.githubusercontent.com/ChaitraPhD/Penguin--species-predictor-App/refs/heads/master/penguins_cleaned.csv')
   df
 
   st.write('**X**')
